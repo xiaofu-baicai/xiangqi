@@ -1,0 +1,173 @@
+[gd_resource type="Resource" script_class="GameSetup" format=3 uid="uid://bhdqvubiwuwa7"]
+
+[ext_resource type="Script" uid="uid://bqsoydf3cjdd7" path="res://scripts/game_setup.gd" id="1"]
+[ext_resource type="Script" uid="uid://c37sqj2flq2w3" path="res://scripts/piece_setup.gd" id="2"]
+
+[sub_resource type="Resource" id="Piece_1"]
+script = ExtResource("2")
+kind = 4
+position = Vector2i(0, 9)
+
+[sub_resource type="Resource" id="Piece_2"]
+script = ExtResource("2")
+kind = 3
+position = Vector2i(1, 9)
+
+[sub_resource type="Resource" id="Piece_3"]
+script = ExtResource("2")
+kind = 2
+position = Vector2i(2, 9)
+
+[sub_resource type="Resource" id="Piece_4"]
+script = ExtResource("2")
+kind = 1
+position = Vector2i(3, 9)
+
+[sub_resource type="Resource" id="Piece_5"]
+script = ExtResource("2")
+kind = 0
+position = Vector2i(4, 9)
+
+[sub_resource type="Resource" id="Piece_6"]
+script = ExtResource("2")
+kind = 1
+position = Vector2i(5, 9)
+
+[sub_resource type="Resource" id="Piece_7"]
+script = ExtResource("2")
+kind = 2
+position = Vector2i(6, 9)
+
+[sub_resource type="Resource" id="Piece_8"]
+script = ExtResource("2")
+kind = 3
+position = Vector2i(7, 9)
+
+[sub_resource type="Resource" id="Piece_9"]
+script = ExtResource("2")
+kind = 4
+position = Vector2i(8, 9)
+
+[sub_resource type="Resource" id="Piece_10"]
+script = ExtResource("2")
+kind = 5
+position = Vector2i(1, 7)
+
+[sub_resource type="Resource" id="Piece_11"]
+script = ExtResource("2")
+kind = 5
+position = Vector2i(7, 7)
+
+[sub_resource type="Resource" id="Piece_12"]
+script = ExtResource("2")
+position = Vector2i(0, 6)
+
+[sub_resource type="Resource" id="Piece_13"]
+script = ExtResource("2")
+position = Vector2i(2, 6)
+
+[sub_resource type="Resource" id="Piece_14"]
+script = ExtResource("2")
+position = Vector2i(4, 6)
+
+[sub_resource type="Resource" id="Piece_15"]
+script = ExtResource("2")
+position = Vector2i(6, 6)
+
+[sub_resource type="Resource" id="Piece_16"]
+script = ExtResource("2")
+position = Vector2i(8, 6)
+
+[sub_resource type="Resource" id="Piece_17"]
+script = ExtResource("2")
+side = 1
+kind = 4
+
+[sub_resource type="Resource" id="Piece_18"]
+script = ExtResource("2")
+side = 1
+kind = 3
+position = Vector2i(1, 0)
+
+[sub_resource type="Resource" id="Piece_19"]
+script = ExtResource("2")
+side = 1
+kind = 2
+position = Vector2i(2, 0)
+
+[sub_resource type="Resource" id="Piece_20"]
+script = ExtResource("2")
+side = 1
+kind = 1
+position = Vector2i(3, 0)
+
+[sub_resource type="Resource" id="Piece_21"]
+script = ExtResource("2")
+side = 1
+kind = 0
+position = Vector2i(4, 0)
+
+[sub_resource type="Resource" id="Piece_22"]
+script = ExtResource("2")
+side = 1
+kind = 1
+position = Vector2i(5, 0)
+
+[sub_resource type="Resource" id="Piece_23"]
+script = ExtResource("2")
+side = 1
+kind = 2
+position = Vector2i(6, 0)
+
+[sub_resource type="Resource" id="Piece_24"]
+script = ExtResource("2")
+side = 1
+kind = 3
+position = Vector2i(7, 0)
+
+[sub_resource type="Resource" id="Piece_25"]
+script = ExtResource("2")
+side = 1
+kind = 4
+position = Vector2i(8, 0)
+
+[sub_resource type="Resource" id="Piece_26"]
+script = ExtResource("2")
+side = 1
+kind = 5
+position = Vector2i(1, 2)
+
+[sub_resource type="Resource" id="Piece_27"]
+script = ExtResource("2")
+side = 1
+kind = 5
+position = Vector2i(7, 2)
+
+[sub_resource type="Resource" id="Piece_28"]
+script = ExtResource("2")
+side = 1
+position = Vector2i(0, 3)
+
+[sub_resource type="Resource" id="Piece_29"]
+script = ExtResource("2")
+side = 1
+position = Vector2i(2, 3)
+
+[sub_resource type="Resource" id="Piece_30"]
+script = ExtResource("2")
+side = 1
+position = Vector2i(4, 3)
+
+[sub_resource type="Resource" id="Piece_31"]
+script = ExtResource("2")
+side = 1
+position = Vector2i(6, 3)
+
+[sub_resource type="Resource" id="Piece_32"]
+script = ExtResource("2")
+side = 1
+position = Vector2i(8, 3)
+
+[resource]
+script = ExtResource("1")
+pieces = Array[ExtResource("2")]([SubResource("Piece_1"), SubResource("Piece_2"), SubResource("Piece_3"), SubResource("Piece_4"), SubResource("Piece_5"), SubResource("Piece_6"), SubResource("Piece_7"), SubResource("Piece_8"), SubResource("Piece_9"), SubResource("Piece_10"), SubResource("Piece_11"), SubResource("Piece_12"), SubResource("Piece_13"), SubResource("Piece_14"), SubResource("Piece_15"), SubResource("Piece_16"), SubResource("Piece_17"), SubResource("Piece_18"), SubResource("Piece_19"), SubResource("Piece_20"), SubResource("Piece_21"), SubResource("Piece_22"), SubResource("Piece_23"), SubResource("Piece_24"), SubResource("Piece_25"), SubResource("Piece_26"), SubResource("Piece_27"), SubResource("Piece_28"), SubResource("Piece_29"), SubResource("Piece_30"), SubResource("Piece_31"), SubResource("Piece_32")])
