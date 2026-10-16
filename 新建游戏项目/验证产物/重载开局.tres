@@ -1,0 +1,174 @@
+[gd_resource type="Resource" script_class="开局配置" format=3]
+
+[ext_resource type="Script" path="res://脚本/开局配置.gd" id="1_5qk0g"]
+[ext_resource type="Script" path="res://脚本/棋子配置.gd" id="2_dk3ce"]
+
+[sub_resource type="Resource" id="Resource_5qk0g"]
+script = ExtResource("2_dk3ce")
+"棋种" = 4
+"棋盘位置" = Vector2i(0, 8)
+"血量" = 7
+
+[sub_resource type="Resource" id="Resource_dk3ce"]
+script = ExtResource("2_dk3ce")
+"棋种" = 3
+"棋盘位置" = Vector2i(1, 9)
+
+[sub_resource type="Resource" id="Resource_1dic2"]
+script = ExtResource("2_dk3ce")
+"棋种" = 2
+"棋盘位置" = Vector2i(2, 9)
+
+[sub_resource type="Resource" id="Resource_rk5f0"]
+script = ExtResource("2_dk3ce")
+"棋种" = 1
+"棋盘位置" = Vector2i(3, 9)
+
+[sub_resource type="Resource" id="Resource_igdkb"]
+script = ExtResource("2_dk3ce")
+"棋种" = 0
+"棋盘位置" = Vector2i(4, 9)
+
+[sub_resource type="Resource" id="Resource_ky755"]
+script = ExtResource("2_dk3ce")
+"棋种" = 1
+"棋盘位置" = Vector2i(5, 9)
+
+[sub_resource type="Resource" id="Resource_gx47q"]
+script = ExtResource("2_dk3ce")
+"棋种" = 2
+"棋盘位置" = Vector2i(6, 9)
+
+[sub_resource type="Resource" id="Resource_1guaw"]
+script = ExtResource("2_dk3ce")
+"棋种" = 3
+"棋盘位置" = Vector2i(7, 9)
+
+[sub_resource type="Resource" id="Resource_21uoc"]
+script = ExtResource("2_dk3ce")
+"棋种" = 4
+"棋盘位置" = Vector2i(8, 9)
+
+[sub_resource type="Resource" id="Resource_r6ker"]
+script = ExtResource("2_dk3ce")
+"棋种" = 5
+"棋盘位置" = Vector2i(1, 7)
+
+[sub_resource type="Resource" id="Resource_75p3c"]
+script = ExtResource("2_dk3ce")
+"棋种" = 5
+"棋盘位置" = Vector2i(7, 7)
+
+[sub_resource type="Resource" id="Resource_fyule"]
+script = ExtResource("2_dk3ce")
+"棋盘位置" = Vector2i(0, 6)
+
+[sub_resource type="Resource" id="Resource_xgq6w"]
+script = ExtResource("2_dk3ce")
+"棋盘位置" = Vector2i(2, 6)
+
+[sub_resource type="Resource" id="Resource_me1nw"]
+script = ExtResource("2_dk3ce")
+"棋盘位置" = Vector2i(4, 6)
+
+[sub_resource type="Resource" id="Resource_nvrrw"]
+script = ExtResource("2_dk3ce")
+"棋盘位置" = Vector2i(6, 6)
+
+[sub_resource type="Resource" id="Resource_vp67q"]
+script = ExtResource("2_dk3ce")
+"棋盘位置" = Vector2i(8, 6)
+
+[sub_resource type="Resource" id="Resource_dljei"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋种" = 4
+
+[sub_resource type="Resource" id="Resource_flmqr"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋种" = 3
+"棋盘位置" = Vector2i(1, 0)
+
+[sub_resource type="Resource" id="Resource_t8l0y"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋种" = 2
+"棋盘位置" = Vector2i(2, 0)
+
+[sub_resource type="Resource" id="Resource_h8ct0"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋种" = 1
+"棋盘位置" = Vector2i(3, 0)
+
+[sub_resource type="Resource" id="Resource_qxwjw"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋种" = 0
+"棋盘位置" = Vector2i(4, 0)
+
+[sub_resource type="Resource" id="Resource_himlk"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋种" = 1
+"棋盘位置" = Vector2i(5, 0)
+
+[sub_resource type="Resource" id="Resource_t2hva"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋种" = 2
+"棋盘位置" = Vector2i(6, 0)
+
+[sub_resource type="Resource" id="Resource_2euk4"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋种" = 3
+"棋盘位置" = Vector2i(7, 0)
+
+[sub_resource type="Resource" id="Resource_ljd4o"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋种" = 4
+"棋盘位置" = Vector2i(8, 0)
+
+[sub_resource type="Resource" id="Resource_jpeqm"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋种" = 5
+"棋盘位置" = Vector2i(1, 2)
+
+[sub_resource type="Resource" id="Resource_uehol"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋种" = 5
+"棋盘位置" = Vector2i(7, 2)
+
+[sub_resource type="Resource" id="Resource_md31i"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋盘位置" = Vector2i(0, 3)
+
+[sub_resource type="Resource" id="Resource_jy0hv"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋盘位置" = Vector2i(2, 3)
+
+[sub_resource type="Resource" id="Resource_v35ch"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋盘位置" = Vector2i(4, 3)
+
+[sub_resource type="Resource" id="Resource_jouqd"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋盘位置" = Vector2i(6, 3)
+
+[sub_resource type="Resource" id="Resource_p31d2"]
+script = ExtResource("2_dk3ce")
+"阵营" = 1
+"棋盘位置" = Vector2i(8, 3)
+
+[resource]
+script = ExtResource("1_5qk0g")
+"棋子列表" = Array[ExtResource("2_dk3ce")]([SubResource("Resource_5qk0g"), SubResource("Resource_dk3ce"), SubResource("Resource_1dic2"), SubResource("Resource_rk5f0"), SubResource("Resource_igdkb"), SubResource("Resource_ky755"), SubResource("Resource_gx47q"), SubResource("Resource_1guaw"), SubResource("Resource_21uoc"), SubResource("Resource_r6ker"), SubResource("Resource_75p3c"), SubResource("Resource_fyule"), SubResource("Resource_xgq6w"), SubResource("Resource_me1nw"), SubResource("Resource_nvrrw"), SubResource("Resource_vp67q"), SubResource("Resource_dljei"), SubResource("Resource_flmqr"), SubResource("Resource_t8l0y"), SubResource("Resource_h8ct0"), SubResource("Resource_qxwjw"), SubResource("Resource_himlk"), SubResource("Resource_t2hva"), SubResource("Resource_2euk4"), SubResource("Resource_ljd4o"), SubResource("Resource_jpeqm"), SubResource("Resource_uehol"), SubResource("Resource_md31i"), SubResource("Resource_jy0hv"), SubResource("Resource_v35ch"), SubResource("Resource_jouqd"), SubResource("Resource_p31d2")])

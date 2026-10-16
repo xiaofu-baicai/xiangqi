@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://b3tiixfavuof6"]
+
+[ext_resource type="Texture2D" uid="uid://cfl4crc78ctx2" path="res://美术资源/场景图/场景1(1).png" id="1_1sf6k"]
+
+[node name="测试" type="Node2D" unique_id=1948260788]
+metadata/_edit_horizontal_guides_ = [622.0]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1532183377]
+texture = ExtResource("1_1sf6k")

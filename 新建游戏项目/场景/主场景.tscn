@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://djh0m1o46241b"]
+
+[ext_resource type="Script" uid="uid://bpdniq4fu2ib8" path="res://脚本/主场景.gd" id="1_r1b65"]
+[ext_resource type="Resource" uid="uid://bhdqvubiwuwa7" path="res://配置/默认开局.tres" id="2_ed7t1"]
+
+[node name="水墨象棋" type="Node2D" unique_id=1993581210]
+script = ExtResource("1_r1b65")
+"开局" = ExtResource("2_ed7t1")

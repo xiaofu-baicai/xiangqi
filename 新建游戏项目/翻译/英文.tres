@@ -1,0 +1,42 @@
+[gd_resource type="Translation" format=3]
+
+[resource]
+locale = "en"
+messages = {
+"墨弈": "Ink Chess",
+"山 水 入 局\n落 子 生 风": "Mountains in ink\nMoves on the wind",
+"象\n棋": "XIANGQI",
+"一局天地间": "A world on the board",
+"对  弈": "MATCH",
+"重新开局": "New Game",
+"点击己方棋子，再点击落点\n圆点为移动，红环为攻击\n多血棋子受击存活时留在原位": "Select your piece, then a target.\nDots: move. Red rings: attack.\nSurvivors stay on their square.",
+"水墨象棋  /  可配置开局": "Ink Xiangqi / Custom Setups",
+"配置错误": "Invalid Setup",
+"请修改开局资源后重开": "Edit the setup, then start again.",
+"主场景尚未指定开局配置": "No game setup is assigned to the main scene.",
+"黑方": "Black",
+"红方": "Red",
+"你获胜了": "Victory",
+"本局落败": "Defeat",
+"%s被将死。\n点击重新开局再战。": "%s is checkmated.\nChoose New Game to play again.",
+"%s无合法行动。\n点击重新开局再战。": "%s has no legal moves.\nChoose New Game to play again.",
+"%s · 思考中": "%s · Thinking",
+"%s · 请落子": "%s · Your move",
+"你执黑棋，电脑执红棋。": "You play Black. The computer plays Red.",
+"你执红棋，电脑执黑棋。": "You play Red. The computer plays Black.",
+"将军！请化解致命威胁。": "Check! Protect your general.",
+"静观棋势，落子无悔。": "Study the board. Make your move.",
+"已行动 %d 回合\n将帅受致命威胁时须应将": "Moves played: %d\nRespond to lethal threats to your general.",
+"楚 河": "CHU RIVER",
+"汉 界": "HAN BORDER",
+"弈": "Play",
+"第 %d 个棋子为空": "Piece %d is empty.",
+"第 %d 个棋子的阵营或种类无效": "Piece %d has an invalid side or kind.",
+"第 %d 个棋子坐标越界：%s": "Piece %d is outside the board: %s.",
+"坐标 %s 存在重叠棋子": "Multiple pieces occupy %s.",
+"第 %d 个棋子的血量必须大于零": "Piece %d must have positive health.",
+"将帅必须位于己方九宫": "Generals must start in their own palace.",
+"%s必须恰好有一个将帅": "%s must have exactly one general.",
+"玩家阵营或先手方无效": "The player side or starting side is invalid.",
+"开局不得将帅照面": "Generals must not face each other in the opening."
+}
